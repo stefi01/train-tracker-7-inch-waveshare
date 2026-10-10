@@ -1,0 +1,23 @@
+Live Trains, Waveshare 7 inch.
+
+Repo: https://github.com/stefi01/train-tracker-7-inch-waveshare
+Branch main. Folder ota.
+
+Upload only these two files:
+  version.txt
+  lt_7in.bin
+
+Do not upload this note.
+Do not put these files in Live-train-Tracker. That repo is the other screen.
+
+The sketch to open is live_trains.ino.
+LT_VER is 1.18.
+CHECK reads ota/version.txt.
+INSTALL reads ota/lt_7in.bin.
+
+The sketch name on the computer is not the name on GitHub.
+After you compile, rename the smaller app bin, live_trains.ino.bin, to lt_7in.bin.
+Leave version.txt at 1.18 until you raise LT_VER in the sketch.
+
+A desk already showing 1.18 will say this is the latest.
+CHECK only offers a higher number.
